@@ -2,7 +2,7 @@ import { EurRatesResponse } from "../types/api/EurRatesResponse";
 import { CurrencyStrings } from "../types/Currencies";
 
 /**
- * Telper method to convert to EUR
+ * Helper method to convert to EUR
  * @param eurRates
  * @param currency
  * @param amount

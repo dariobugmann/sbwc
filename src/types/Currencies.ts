@@ -1,4 +1,4 @@
-// TO add a new currency, add it to this type. Typescript will then force you to create all the other required types below
+// To add a new currency, add it to this type. Typescript will then force you to create all the other required types below
 export type CurrencyStrings = "USD" | "CHF" | "BTC";
 
 export interface ICurrency {

@@ -8,11 +8,11 @@
 
 ## Assumptions and Possible Pitfalls
 
-The project was developed in react with typescript. No SSR framework (such as gatsby/nextjs) was picked simply because it is unclear from the project description whether it would bring any benefits.
+The project was developed in React with Typescript. No SSR framework (such as gatsby/nextjs) was picked simply because it is unclear from the project description whether it would bring enough benefits.
 
-The solution assumes that other currencies will be added in the future. Therefore, Typescript is leveraged to ensure that a new currency can be easily added. It should be noted that rounding is of special importance when it comes to decimal calcuations.
+The solution assumes that other currencies will be added in the future. Therefore, Typescript is leveraged to ensure that a new currency can be easily added. I also assume that should a new currency be added, its EUR-rate would be included in the response as well.
 
-Possbile pitfalls include quite a bit of additional should somebody want conversions into other currencies (other than EUR). However, this seems unlikely to me since the enpoint is called /eur-rates and adding other rates would mean that either there had to be an individual endpoint for each, or the endpoint would have to be changed.
+Possbile pitfalls include quite a bit of additional work should somebody want conversions into other currencies (other than EUR). However, this seems unlikely to me since the enpoint is called "/eur-rates" and adding other rates would mean that either there had to be a new endpoint, or the endpoint would have to be renamend.
 
 ## Available Scripts
 
