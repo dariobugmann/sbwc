@@ -3,7 +3,7 @@
 ## Choice of Tools
 
 1. Frontend library: React (no SSR framework, could be easily migrated if needed later)
-2. No CSS library was picked, however CSS modules are used to keep CSS scoped/tied to components.
+2. No CSS library was picked due to the rather small size of the project
 3. Typescript for type safety and because it was a requirement
 
 ## Assumptions and Possible Pitfalls
@@ -29,4 +29,4 @@ You will also see any lint errors in the console.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes
